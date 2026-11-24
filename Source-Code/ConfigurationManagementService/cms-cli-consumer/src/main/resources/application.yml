@@ -1,0 +1,11 @@
+cms:
+  api-base-url: "http://localhost:8080/api/v1"
+  token-uri: "http://localhost:8081/realms/enterprise-cms/protocol/openid-connect/token"
+  client-id: "cms-service-client"
+  # Set CMS_CLIENT_SECRET in the process environment; do not commit a real secret.
+  client-secret: "CHANGE_ME"
+  environment: "DEV"
+  region: "us-central1"
+  instance-id: "cms-cli-consumer-01"
+  polling-interval-seconds: 120
+  request-timeout-seconds: 10

@@ -1,0 +1,7 @@
+cms:
+  cache:
+    effective-configuration-ttl: 6h
+    embedded-redis:
+      enabled: true
+      host: 127.0.0.1
+      port: 6379
